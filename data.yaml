@@ -1,0 +1,7 @@
+train: dataset/train/images 
+val: dataset/val/images 
+test: dataset/test/images
+
+nc: 13 
+names: [people, fork, spoon, cup, kettle, basket, salad, ribs, Caesar,
+fish, soup, borsch, phone]
