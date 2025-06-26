@@ -35,7 +35,7 @@ output_folder = 'result'
 
 os.makedirs(output_folder, exist_ok=True)
 
-for _ in range(0, 2):
+for _ in range(2):
 
     for img_num in range(24, 68):
         img = cv2.imread(f'img/img{img_num}.jpg')

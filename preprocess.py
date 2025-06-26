@@ -29,15 +29,15 @@ areas_fragment = [
 ]
 probability = 0.5
 probability_fragment = 0.5
-counter = 110
+counter = 0
 
 output_folder = 'result'
 
 os.makedirs(output_folder, exist_ok=True)
 
-for _ in range(0, 2):
+for _ in range(5):
 
-    for img_num in range(0, 24):
+    for img_num in range(2, 24):
         img = cv2.imread(f'img/img{img_num}.jpg')
 
         for idx, (x1, y1, x2, y2) in enumerate(areas):
